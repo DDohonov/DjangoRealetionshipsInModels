@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans';
+}
+body{
+    background-color: #E7E7E7;
+    padding: 40px 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.post{
+    gap: 25px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 40px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px 10px;
+}
+
+.post p{
+    width: 100%;
+    padding-top: 20px;
+    font-size: 16px;
+    color: black;
+    
+}
+.user_name{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 3px solid #ADF8F3;}
+
+.post img{
+	width: 1000px;
+    border-radius: 15px;
+    border: 2px black solid;
+    
+}
+
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    
+}
+.comments li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.comments p{
+
+    font-size: 15px;
+    color: black;
+
+}
+   width: 100%;
+    border-bottom: 3px solid #ADF8F3;}
+
+.post img{
+	width: 1000px;
+    border-radius: 15px;
+    border: 2px black solid;
+    
+}
+
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    
+}
+.comments li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.comments p{
+
+    font-size: 15px;
+    color: black;
+
+}

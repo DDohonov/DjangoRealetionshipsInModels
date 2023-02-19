@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="{% static 'app1/style.css' %}" > 
+    </head>
+    <body>
+        <main>
+            <div class="post">
+                <p class="user_name">{{ post_obj.user_name }}</p>
+                <img src="{{ post_obj.image.url }}" alt="Картинка">
+                <p>{{ post_obj.description }}</p>
+            </div>
+            <ul class="comments"> 
+                {% for comment in comments %}
+                    <li>
+                        <p class="user_name"> {{comment.user_name}} </p>
+                        <p class="comment_text"> {{comment.text}} </p>
+                        
+                    </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </body>
+</html>
